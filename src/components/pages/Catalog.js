@@ -3,6 +3,13 @@ import Navbar from '../navbar/Navbar';
 import { Card, Itemimg1, Itemimg2, Itemimg3, Itemimg4, Itemimg5, Itemimg6 } from '../content/card/card';
 import styled from 'styled-components';
 
+const Head = styled.h1`
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+`;
+
 const Cards = styled.div`
     display: flex;
     align-items: center;
@@ -16,8 +23,7 @@ const Catalog = () => {
     return (
         <>
             <Navbar/>
-            <heg><h1>Catalog</h1></heg>
-            
+            <Head>Catalog</Head>
             <Cards>
                 <Card>Red velvet cookies
                     <Itemimg1 id="redvelvet"/>

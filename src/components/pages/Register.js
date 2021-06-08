@@ -19,15 +19,19 @@ const Form = styled.form`
 
 `;
 
-const Hed = styled.h1`
-text-align: center;
-color: #4374bd;
+
+
+const Head = styled.h1`
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 `;
 
 const Register = () => {
     return (
         <>
-            <Hed>Register</Hed>
+            <Head>Register</Head>
             <Form>
                 <label to="usernm">User Name:</label><br/>
                 <input type="text" id="usernm" name="usernm"/><br/><br/>
